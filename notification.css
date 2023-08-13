@@ -2,11 +2,13 @@ body {
     font-family: "Calibri";
     background-color: #eee;
 }
+
 .notification {
     background-color: #fff;
     max-width: 500px;
     margin: 0 auto;
 }
+
 .notification_header {
     background-color: #bcd7e7;
     display: flex;
@@ -14,13 +16,16 @@ body {
     padding: 10px 15px;
     margin-bottom: 10px;
 }
+
 .notification_header img {
     align-self: center;
     max-width: 25px;
 }
+
 .notification_header h2 {
     margin: 0;
 }
+
 .notification_info {
     padding: 0 15px;
     font-weight: bold;
@@ -28,25 +33,30 @@ body {
     transition: 1s;
     opacity: 0;
 }
+
 .notification_form {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     padding: 15px;
 }
+
 .notification_form input {
     height: 30px;
     min-width: 75px;
 }
+
 .notification_form textarea {
     resize: none;
     margin: 0px 10px;
     padding: 10px;
     font-family: "Calibri";
     width: 100%;
-    height: 70px; 
+    height: 70px;
 }
-.notification_form >button, .notification_list > button {
+
+.notification_form>button,
+.notification_list>button {
     cursor: pointer;
     margin: 0;
     text-transform: uppercase;
@@ -54,12 +64,16 @@ body {
     padding: 10px 15px;
     background-color: #bcd7e7;
 }
-.notification_form > button:hover, .notification_list > button:hover{
+
+.notification_form>button:hover,
+.notification_list>button:hover {
     opacity: 0.9;
 }
+
 .notification_list {
     padding: 15px;
 }
+
 .notification_item {
     display: flex;
     justify-content: space-between;
@@ -67,9 +81,11 @@ body {
     padding: 10px;
     margin-bottom: 10px;
 }
+
 .notification_warning {
     background-color: #fff1d7;
 }
+
 button[data-time] {
     display: flex;
     justify-content: center;
@@ -83,9 +99,11 @@ button[data-time] {
     color: white;
     border: none;
 }
+
 button[data-time]:hover {
     background-color: #e00f0f;
 }
+
 .notification_list h3 {
     margin: 0 0 15px 0;
 }
